@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        @for (item of district; track item.id) {
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{item.Image}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{item.Title}}</h5>
+                      <p class="card-text">{{item.desription}}</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          
+            }
+     
+    </div>
+ 
+
+</div>
+
+
+

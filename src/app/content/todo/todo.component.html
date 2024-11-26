@@ -1,0 +1,13 @@
+<p>todo works!</p>
+
+
+
+<div class="todo-list">
+    @for (item of todos; track item.id) {
+    <div class="todo-item">
+        <div class="checker"><span class=""><input type="checkbox"></span></div>
+        <span>{{item.title}}</span>
+        <a href="javascript:void(0);" class="float-right remove-todo-item"><i class="icon-close"></i></a>
+    </div>
+}
+</div>
